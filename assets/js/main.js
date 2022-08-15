@@ -21,6 +21,8 @@ function squareArea(event) {
 const sideTriangle1 = document.getElementById("sideTriangle1");
 const sideTriangle2 = document.getElementById("sideTriangle2");
 const sideTriangle3 = document.getElementById("sideTriangle3");
+const hightTriangle = document.getElementById("hightTriangle");
+
 const resultTriangle =document.getElementById("resultTriangle");
 const btnCalculateTriangle = document.getElementById("btnCalculatePerimeterTriangle");
 const btnCalculateAreaTriangle = document.getElementById("btnCalculateAreaTriangle");
@@ -35,6 +37,6 @@ function trianglePerimeter(event) {
 
 function triangleArea(event) {
     event.preventDefault();
-    resultTriangle.innerHTML = "Result : " +  (sideTriangle1.value * sideTriangl1.value) + "cm2";
+    resultTriangle.innerHTML = "Result : " +  (sideTriangle3.value * hightTriangle.value)/2 + "cm2";
 }
 
